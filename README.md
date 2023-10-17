@@ -18,17 +18,17 @@
 
 === CRYPTO ===
 
-## CREATE NEW ETH PRIVATE KEY 
+## Create new ethereum private key
 
 `openssl rand -hex 32`
 
 # Devops
 
-## FORWARD LOCAL PORT TO REMOTE SERVER 
+## Forward local port to remote server
 
 `ssh -R <remote port>:localhost:<local port> <remote ip> -N`
 
-## EXPOSE A PORT ON ANOTHER PORT
+## expose an port on a socket
 
 `socat tcp-listen:<new listen port>,reuseaddr,fork tcp:localhost:<forwarding port>`
 
@@ -44,19 +44,19 @@ kubectl describe <pod|deployment...> <name>
 kubectl get <pods|secrets|configmap> <name> [-o yaml]
 ```
 
-## ALL LOGS FOR AN ENTIRE CHART
+## All logs for an entire chart
 
 `kubectl logs --max-log-requests 200 -f -l app.kubernetes.io/instance=<chart>`
 
-## ALL LOGS FOR A DEPLOYMENT
+## All logs for a deployment
 
 `kubectl logs --max-log-requests 200 -f -l app.kubernetes.io/name=<deployment name>`
 
-## GET ALL PODS FOR A DEPLOYMENT
+## Get all pods for a deployment
 
 `kubectl get pods -l app.kubernetes.io/instance=<deployment name>`
 
-## RESTART ALL PODS FOR A CHART
+## Restart all pods for a deployment
 
 `kubectl delete pods $(kubectl get pods -l app.kubernetes.io/instance=<chart> | awk '{print $1}' | sed -e '1d')`
 
@@ -66,23 +66,23 @@ kubectl get secrets
 kubectl get secrets <secret name> -o json  | jq .data.<secret field> -r | base64 -d
 ```
 
-# HELM
+# Helm
 
-## LIST CHARTS
+## List Charts
 
-`helm ls`
+`helm ls -a`
 
-## SEE DEPLOYED YAML FOR CHAT
+## See deployed yaml for a chart
 
 `helm get manifest <chart name>`
 
-## ROLLBACK
+## rollback a release
 
 `helm rollback <release> <previous version number>`
 
-# GCLOUD CLI
+# Gcloud CLI
 
-## GCLOUD CLI APPLICATION DEFAULT AUTH
+## Gcloud CLI application default login [Deprecated]
 
 ```
 gcloud auth application-default login 
