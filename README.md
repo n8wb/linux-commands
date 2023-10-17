@@ -34,9 +34,9 @@
 
 # Kubectl 
 
-Cheatsheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+[Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
-### Important sub-commands
+## Important sub-commands
 
 ```
 kubectl logs
@@ -68,8 +68,8 @@ kubectl get secrets <secret name> -o json  | jq .data.<secret field> -r | base64
 
 # Helm
 
-[Cheat Sheet](https://helm.sh/docs/intro/cheatsheet/)
-
+* [Cheat Sheet](https://helm.sh/docs/intro/cheatsheet/)
+* [Intro](https://helm.sh/docs/intro/using_helm/)
 
 ## List Charts
 
