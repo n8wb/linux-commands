@@ -68,6 +68,9 @@ kubectl get secrets <secret name> -o json  | jq .data.<secret field> -r | base64
 
 # Helm
 
+[Cheat Sheet](https://helm.sh/docs/intro/cheatsheet/)
+
+
 ## List Charts
 
 `helm ls -a`
