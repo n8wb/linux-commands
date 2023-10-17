@@ -1,4 +1,6 @@
-=== GENERAL === 
+# GENERAL
+
+--- 
 
 ## View documentation for a command
 `man <command> `
