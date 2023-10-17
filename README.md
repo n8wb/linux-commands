@@ -1,6 +1,4 @@
-# GENERAL
-
---- 
+# General
 
 ## View documentation for a command
 `man <command> `
@@ -24,7 +22,7 @@
 
 `openssl rand -hex 32`
 
-=== Devops === 
+# Devops
 
 ## FORWARD LOCAL PORT TO REMOTE SERVER 
 
