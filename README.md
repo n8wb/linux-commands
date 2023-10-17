@@ -1,12 +1,13 @@
 === GENERAL === 
 
 ## View documentation for a command
-man <command> 
+`man <command> `
 
 ## Search all files in a dir
-grep -H -n -r <search term> <dir>
+`grep -H -n -r <search term> <dir>`
 
 ## Essentials
+
 * `sed` -> https://linux.die.net/man/1/sed
 * `awk` -> https://linux.die.net/man/1/awk
 * `tmux` -> https://linux.die.net/man/1/tmux
