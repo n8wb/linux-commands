@@ -7,13 +7,13 @@ man <command>
 grep -H -n -r <search term> <dir>
 
 ## Essentials
-• sed -> https://linux.die.net/man/1/sed
-• awk -> https://linux.die.net/man/1/awk
-• tmux -> https://linux.die.net/man/1/tmux
-• grep -> https://linux.die.net/man/1/grep
-• journalctl -> https://man7.org/linux/man-pages/man1/journalctl.1.html
-• systemctl -> https://man7.org/linux/man-pages/man1/systemctl.1.html
-• jq -> https://manpages.ubuntu.com/manpages/focal/en/man1/jq.1.html
+* `sed` -> https://linux.die.net/man/1/sed
+* `awk` -> https://linux.die.net/man/1/awk
+* `tmux` -> https://linux.die.net/man/1/tmux
+* `grep` -> https://linux.die.net/man/1/grep
+* `journalctl` -> https://man7.org/linux/man-pages/man1/journalctl.1.html
+* `systemctl` -> https://man7.org/linux/man-pages/man1/systemctl.1.html
+* `jq` -> https://manpages.ubuntu.com/manpages/focal/en/man1/jq.1.html
 
 === CRYPTO ===
 
