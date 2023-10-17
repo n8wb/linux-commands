@@ -16,7 +16,7 @@
 * `systemctl` -> https://man7.org/linux/man-pages/man1/systemctl.1.html
 * `jq` -> https://manpages.ubuntu.com/manpages/focal/en/man1/jq.1.html
 
-=== CRYPTO ===
+# Crypto
 
 ## Create new ethereum private key
 
